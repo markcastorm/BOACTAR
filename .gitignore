@@ -26,18 +26,11 @@ logs/
 output/
 
 # Input files (raw data - not tracked)
-input/*.xlsm
-input/*.xlsx
+#
 
 # Master file (large Excel - not tracked)
-Master_file/
 
 # Project reference files (large binaries)
-project_information/*.xlsm
-project_information/*.xlsx
-project_information/*.docx
-project_information/*.png
-project_information/*.zip
 
 # Archives
 *.zip
