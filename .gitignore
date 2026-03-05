@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+
+# Output files (generated data)
+output/
+
+# Input files (raw data - not tracked)
+input/*.xlsm
+input/*.xlsx
+
+# Master file (large Excel - not tracked)
+Master_file/
+
+# Project reference files (large binaries)
+project_information/*.xlsm
+project_information/*.xlsx
+project_information/*.docx
+project_information/*.png
+project_information/*.zip
+
+# Archives
+*.zip
+
+# Claude Code
+.claude/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store

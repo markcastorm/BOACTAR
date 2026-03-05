@@ -1,0 +1,35 @@
+i believe its a new dawn new begining its a new run book  howp you have gon through the previous code see how good it its and its architecture 
+((D:\Projects\SIMBA-RUNBOOKS\SSGADD)) analyze the scripts weel we go na use the architecture  for this runbook we are gona have a master xls too like the mndmr project 
+
+
+create the master file using this data (D:\Projects\SIMBA-RUNBOOKS\BOACTAR\project_information\BOACTAR_DATA_20251229 (27).xlsx) never mind i have created it my self(D:\Projects\SIMBA-RUNBOOKS\BOACTAR\Master_file\BOACTAR_DATA_20251229 (27).xlsx)
+lets discuss this  we ar gona have an input forlder where iwill be droping an xlsm file  or excell fiile csv name it it will have data like this file (D:\Projects\SIMBA-RUNBOOKS\BOACTAR\input\12930595 (2).xlsm) has multiple tabs analyze it we are mor interested in the Summary tab  analyze it keanly 
+looks like this (D:\Projects\SIMBA-RUNBOOKS\BOACTAR\project_information\image.png) in side the data cells they are formulars like you see (D:\Projects\SIMBA-RUNBOOKS\BOACTAR\project_information\Screenshot 2026-02-06 100928.png) never mind themm the idea is you copy the everything in the entiere tab like i would select all on that tab than copy go to a new csv file or exell file then i paste everything  as numbers like this i will get a file like this (D:\Projects\SIMBA-RUNBOOKS\BOACTAR\project_information\Pasted data as numbers.xlsx) simple asthat  now we start on the cleaning of the file based on the runbook 
+(D:\Projects\SIMBA-RUNBOOKS\BOACTAR\project_information\BOACTAR_Runbook.docx)  you can its straight forwad i gues the first step will be to clean the data the places where there are dashes we are gona set them as NA (D:\Projects\SIMBA-RUNBOOKS\BOACTAR\project_information\Screenshot 2026-02-06 101835.png)(Keep the dashes in the triggers section as NA value.) YOU CAN ALSO SEE THE percentages from the summary tab have changes to decimal points after pasting as number we are gonna  multiply them by 100% as stated in the runcook and ensure we maintain all ita full data all it decimall placess dont trancate the data this is finacial data (NB!: Percentage values should be indicated with maximum available digits after comma from excel file, in FULL PERCENTAGE AMOUNT. Be aware that by simply copying percentage values from excel they copying as index, so we need multiple these values by 100 after copying.
+
+For instance, we have value below:)(D:\Projects\SIMBA-RUNBOOKS\BOACTAR\project_information\Screenshot 2026-02-06 102417.png) you can see this(Be aware that we need “20.2922144864265” value in the data file for such cases.
+
+NB! Be aware that some line for spot => current price items were renamed, the actual description was updated:
+
+- SX5E -> EURO STOXX 50 (VG)
+
+- SX7E -> EURO STOXX Banks (CA)
+
+- Hang Seng -> Hang Seng (HI)
+
+- Hang Seng China Enterprises -> HSCEI (HC)
+
+)  as scrated in the runbook you can see in this screen shot this is very important  we are talking bout the percentage values ok nod if you understand
+
+anaother thing is the headers and sub headers and subsub headers and sub sub sub headers are very important so the script needs to be ad dynamic as posible  loacating the headers sub headers and also the columns with leables s like for instance you can see 
+colum b band c  have labes fromm the summary tab right  and row 1 to 5 have headers but i need you to make this identification as dynamic as possible summary tab(D:\Projects\SIMBA-RUNBOOKS\BOACTAR\project_information\image3.png) after pasting (D:\Projects\SIMBA-RUNBOOKS\BOACTAR\project_information\image4.png) look at them keenly
+ so we got everything coverd  now we need to to the real stuff the structured output i need (D:\Projects\SIMBA-RUNBOOKS\BOACTAR\project_information\BOACTAR_DATA_20251229 (27).xlsx)  this iis the excpected output 
+thistime we will  have the config.py  add the necessary collumns mapinng since the sub headers and headers in the manual data will be exactly the way they are to every output and in the exact arrangement remeber this is absolute nomoving shit arround the headers and subheader in this expected data 
+ ssave them in the config file while doing mapping    so i have a master file here it is (D:\Projects\SIMBA-RUNBOOKS\BOACTAR\Master_file\BOACTAR_DATA_20251229 (27).xlsx)
+  after the cleaning then we gona update the data based on the date mentioned in the summary file(D:\Projects\SIMBA-RUNBOOKS\BOACTAR\project_information\image5.png) as you see i have anotated with the arrow       noe the heades and sub heders will guid you aon what data is required in the master   based on the labels and headers and sub heders in the input file  analyze and ensure maping accuracy without hard cording ok 
+   the parser will appen this new data row based on the date and headers   to give us this king of results  D:\Projects\SIMBA-RUNBOOKS\BOACTAR\Master_file\BOACTAR_DATA_20251229 (27).xlsx   you can see the results for the 3rd feb and 2nd feb input file (D:\Projects\SIMBA-RUNBOOKS\BOACTAR\project_information\12929911 (1).xlsm)  you can see its results in the data file and master  we are goin to update the master then duplicate the master as our new data file in the out fut folder with timestamped subfolders for every run and  latest subfolder wich will always hold the latest files on every runn   
+
+
+
+
+
