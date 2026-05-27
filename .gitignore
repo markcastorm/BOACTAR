@@ -23,7 +23,7 @@ env/
 logs/
 
 # Output files (generated data)
-output/
+
 
 # Input files (raw data - not tracked)
 #
