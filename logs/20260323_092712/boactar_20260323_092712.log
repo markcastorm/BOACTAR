@@ -1,0 +1,55 @@
+2026-03-23 09:27:12,121 - logger_setup - INFO - Logging initialized - Level: INFO
+2026-03-23 09:27:12,122 - logger_setup - INFO - Log file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\logs\20260323_092712\boactar_20260323_092712.log
+2026-03-23 09:27:12,123 - __main__ - INFO - ==================================================
+2026-03-23 09:27:12,124 - __main__ - INFO - STEP 1: Loading input data
+2026-03-23 09:27:12,124 - __main__ - INFO - ==================================================
+2026-03-23 09:27:12,125 - data_loader - INFO - Found 2 input file(s) in C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\input
+2026-03-23 09:27:12,126 - data_loader - INFO - Loading file: 12949644.xlsm
+2026-03-23 09:27:53,533 - data_loader - INFO - Data date: 2026-03-19
+2026-03-23 09:27:53,536 - data_loader - INFO - Extracted 79 data rows
+2026-03-23 09:27:53,537 - data_loader - INFO - Loading file: 12949236.xlsm
+2026-03-23 09:28:26,905 - data_loader - INFO - Data date: 2026-03-18
+2026-03-23 09:28:26,908 - data_loader - INFO - Extracted 79 data rows
+2026-03-23 09:28:26,909 - data_loader - INFO - Sorted 2 files by date (oldest to newest)
+2026-03-23 09:28:26,909 - data_loader - INFO -   - 2026-03-18: 12949236.xlsm
+2026-03-23 09:28:26,909 - data_loader - INFO -   - 2026-03-19: 12949644.xlsm
+2026-03-23 09:28:26,910 - __main__ - INFO - ==================================================
+2026-03-23 09:28:26,910 - __main__ - INFO - STEP 2: Parsing and merging data
+2026-03-23 09:28:26,911 - __main__ - INFO - ==================================================
+2026-03-23 09:28:31,245 - parser - INFO - Loaded 1157 columns from master file
+2026-03-23 09:28:31,246 - __main__ - INFO - Processing file 1/2: 12949236.xlsm
+2026-03-23 09:28:31,247 - parser - INFO - Mapped 79 assets to output columns
+2026-03-23 09:28:31,248 - parser - INFO - Loading master data from C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\Master_file\BOACTAR_DATA_20251229 (27).xlsx
+2026-03-23 09:28:35,280 - parser - INFO - Loaded 179 rows from master data
+2026-03-23 09:28:35,293 - parser - INFO - Date range: 2025-06-26 00:00:00 to 2026-03-17 00:00:00
+2026-03-23 09:28:35,295 - parser - INFO - Latest date in master: 2026-03-17 00:00:00
+2026-03-23 09:28:35,296 - parser - INFO - New data date: 2026-03-18 00:00:00
+2026-03-23 09:28:35,301 - parser - INFO - Merging new data with master
+2026-03-23 09:28:35,369 - parser - INFO - Combined data has 180 rows
+2026-03-23 09:28:35,372 - __main__ - INFO - Processing file 2/2: 12949644.xlsm
+2026-03-23 09:28:35,374 - parser - INFO - Mapped 79 assets to output columns
+2026-03-23 09:28:35,374 - parser - INFO - Using existing DataFrame with 180 rows
+2026-03-23 09:28:35,375 - parser - INFO - Latest date in master: 2026-03-18 00:00:00
+2026-03-23 09:28:35,375 - parser - INFO - New data date: 2026-03-19 00:00:00
+2026-03-23 09:28:35,376 - parser - INFO - Merging new data with master
+2026-03-23 09:28:35,593 - parser - INFO - Combined data has 181 rows
+2026-03-23 09:28:35,596 - __main__ - INFO - ==================================================
+2026-03-23 09:28:35,597 - __main__ - INFO - STEP 3: Generating output files
+2026-03-23 09:28:35,597 - __main__ - INFO - ==================================================
+2026-03-23 09:28:35,597 - file_generator - INFO - Generating output files
+2026-03-23 09:28:35,600 - file_generator - INFO - Creating DATA file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\output\20260323_092712\BOACTAR_DATA_20260323_092712.xlsx
+2026-03-23 09:28:39,922 - file_generator - INFO - DATA file created with 181 data rows and 1157 columns
+2026-03-23 09:28:39,926 - file_generator - INFO - Creating META file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\output\20260323_092712\BOACTAR_META_20260323_092712.xlsx
+2026-03-23 09:28:40,070 - file_generator - INFO - META file created with 1157 entries
+2026-03-23 09:28:40,071 - file_generator - INFO - Creating ZIP file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\output\20260323_092712\BOACTAR_20260323_092712.zip
+2026-03-23 09:28:40,183 - file_generator - INFO - ZIP file created
+2026-03-23 09:28:40,208 - file_generator - INFO - Copied files to latest folder
+2026-03-23 09:28:40,208 - file_generator - INFO - Saving master data to: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\Master_file\BOACTAR_DATA_20251229 (27).xlsx
+2026-03-23 09:28:40,209 - file_generator - INFO - Creating DATA file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\Master_file\BOACTAR_DATA_20251229 (27).xlsx
+2026-03-23 09:28:44,615 - file_generator - INFO - DATA file created with 181 data rows and 1157 columns
+2026-03-23 09:28:44,618 - file_generator - INFO - Master data saved with 181 rows
+2026-03-23 09:28:44,618 - file_generator - INFO - All output files generated successfully
+2026-03-23 09:28:44,619 - __main__ - INFO - ==================================================
+2026-03-23 09:28:44,619 - __main__ - INFO - STEP 4: Execution complete
+2026-03-23 09:28:44,620 - __main__ - INFO - ==================================================
+2026-03-23 09:28:44,624 - __main__ - INFO - Pipeline completed successfully

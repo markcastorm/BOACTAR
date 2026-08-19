@@ -1,0 +1,49 @@
+2026-08-06 09:05:20,824 - logger_setup - INFO - Logging initialized - Level: INFO
+2026-08-06 09:05:20,826 - logger_setup - INFO - Log file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\logs\20260806_090520\boactar_20260806_090520.log
+2026-08-06 09:05:20,829 - __main__ - INFO - ==================================================
+2026-08-06 09:05:20,830 - __main__ - INFO - STEP 1: Loading input data
+2026-08-06 09:05:20,830 - __main__ - INFO - ==================================================
+2026-08-06 09:05:20,835 - data_loader - INFO - Found 1 input file(s) in C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\input
+2026-08-06 09:05:20,843 - data_loader - INFO - Loading file: 13004300.xlsm
+2026-08-06 09:06:18,667 - data_loader - INFO - Data date: 2026-08-04
+2026-08-06 09:06:18,667 - data_loader - INFO - Extracted 84 data rows
+2026-08-06 09:06:18,667 - data_loader - INFO - Sorted 1 files by date (oldest to newest)
+2026-08-06 09:06:18,667 - data_loader - INFO -   - 2026-08-04: 13004300.xlsm
+2026-08-06 09:06:18,667 - __main__ - INFO - ==================================================
+2026-08-06 09:06:18,667 - __main__ - INFO - STEP 2: Parsing and merging data
+2026-08-06 09:06:18,676 - __main__ - INFO - ==================================================
+2026-08-06 09:06:25,957 - parser - INFO - Loaded 1157 columns from master file
+2026-08-06 09:06:25,958 - __main__ - INFO - Processing file 1/1: 13004300.xlsm
+2026-08-06 09:06:25,959 - parser - WARNING - Unknown underlying: FTSE 100 (Z )
+2026-08-06 09:06:25,959 - parser - WARNING - Unknown underlying: S&P/TSX 60 (PT)
+2026-08-06 09:06:25,960 - parser - WARNING - Unknown underlying: FTSE China A50 (XU)
+2026-08-06 09:06:25,962 - parser - WARNING - Unknown underlying: Australia 3yr Tsy Futures (YM)
+2026-08-06 09:06:25,963 - parser - WARNING - Unknown underlying: Australia 10yr TSY Futures (XM)
+2026-08-06 09:06:25,963 - parser - INFO - Mapped 79 assets to output columns
+2026-08-06 09:06:25,963 - parser - INFO - Loading master data from C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\Master_file\BOACTAR_DATA_20251229 (27).xlsx
+2026-08-06 09:06:34,641 - parser - INFO - Loaded 267 rows from master data
+2026-08-06 09:06:34,646 - parser - INFO - Date range: 2025-06-26 00:00:00 to 2026-08-03 00:00:00
+2026-08-06 09:06:34,653 - parser - INFO - Latest date in master: 2026-08-03 00:00:00
+2026-08-06 09:06:34,659 - parser - INFO - New data date: 2026-08-04 00:00:00
+2026-08-06 09:06:34,661 - parser - INFO - Merging new data with master
+2026-08-06 09:06:34,795 - parser - INFO - Combined data has 268 rows
+2026-08-06 09:06:34,802 - __main__ - INFO - ==================================================
+2026-08-06 09:06:34,803 - __main__ - INFO - STEP 3: Generating output files
+2026-08-06 09:06:34,804 - __main__ - INFO - ==================================================
+2026-08-06 09:06:34,804 - file_generator - INFO - Generating output files
+2026-08-06 09:06:34,806 - file_generator - INFO - Creating DATA file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\output\20260806_090520\BOACTAR_DATA_20260806_090520.xlsx
+2026-08-06 09:06:46,999 - file_generator - INFO - DATA file created with 268 data rows and 1157 columns
+2026-08-06 09:06:47,194 - file_generator - INFO - Creating META file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\output\20260806_090520\BOACTAR_META_20260806_090520.xlsx
+2026-08-06 09:06:48,982 - file_generator - INFO - META file created with 1157 entries
+2026-08-06 09:06:48,987 - file_generator - INFO - Creating ZIP file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\output\20260806_090520\BOACTAR_20260806_090520.zip
+2026-08-06 09:06:49,674 - file_generator - INFO - ZIP file created
+2026-08-06 09:06:49,819 - file_generator - INFO - Copied files to latest folder
+2026-08-06 09:06:49,872 - file_generator - INFO - Saving master data to: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\Master_file\BOACTAR_DATA_20251229 (27).xlsx
+2026-08-06 09:06:49,881 - file_generator - INFO - Creating DATA file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\Master_file\BOACTAR_DATA_20251229 (27).xlsx
+2026-08-06 09:07:03,507 - file_generator - INFO - DATA file created with 268 data rows and 1157 columns
+2026-08-06 09:07:03,522 - file_generator - INFO - Master data saved with 268 rows
+2026-08-06 09:07:03,523 - file_generator - INFO - All output files generated successfully
+2026-08-06 09:07:03,527 - __main__ - INFO - ==================================================
+2026-08-06 09:07:03,527 - __main__ - INFO - STEP 4: Execution complete
+2026-08-06 09:07:03,527 - __main__ - INFO - ==================================================
+2026-08-06 09:07:03,529 - __main__ - INFO - Pipeline completed successfully

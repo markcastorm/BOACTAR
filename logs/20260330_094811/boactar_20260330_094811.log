@@ -1,0 +1,44 @@
+2026-03-30 09:48:11,721 - logger_setup - INFO - Logging initialized - Level: INFO
+2026-03-30 09:48:11,731 - logger_setup - INFO - Log file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\logs\20260330_094811\boactar_20260330_094811.log
+2026-03-30 09:48:11,749 - __main__ - INFO - ==================================================
+2026-03-30 09:48:11,915 - __main__ - INFO - STEP 1: Loading input data
+2026-03-30 09:48:12,123 - __main__ - INFO - ==================================================
+2026-03-30 09:48:12,534 - data_loader - INFO - Found 1 input file(s) in C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\input
+2026-03-30 09:48:12,882 - data_loader - INFO - Loading file: 12952164.xlsm
+2026-03-30 09:50:10,181 - data_loader - INFO - Data date: 2026-03-26
+2026-03-30 09:50:10,187 - data_loader - INFO - Extracted 79 data rows
+2026-03-30 09:50:10,187 - data_loader - INFO - Sorted 1 files by date (oldest to newest)
+2026-03-30 09:50:10,187 - data_loader - INFO -   - 2026-03-26: 12952164.xlsm
+2026-03-30 09:50:10,199 - __main__ - INFO - ==================================================
+2026-03-30 09:50:10,199 - __main__ - INFO - STEP 2: Parsing and merging data
+2026-03-30 09:50:10,200 - __main__ - INFO - ==================================================
+2026-03-30 09:50:17,482 - parser - INFO - Loaded 1157 columns from master file
+2026-03-30 09:50:17,482 - __main__ - INFO - Processing file 1/1: 12952164.xlsm
+2026-03-30 09:50:17,482 - parser - INFO - Mapped 79 assets to output columns
+2026-03-30 09:50:17,482 - parser - INFO - Loading master data from C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\Master_file\BOACTAR_DATA_20251229 (27).xlsx
+2026-03-30 09:50:24,444 - parser - INFO - Loaded 185 rows from master data
+2026-03-30 09:50:24,444 - parser - INFO - Date range: 2025-06-26 00:00:00 to 2026-03-25 00:00:00
+2026-03-30 09:50:24,460 - parser - INFO - Latest date in master: 2026-03-25 00:00:00
+2026-03-30 09:50:24,460 - parser - INFO - New data date: 2026-03-26 00:00:00
+2026-03-30 09:50:24,467 - parser - INFO - Merging new data with master
+2026-03-30 09:50:24,790 - parser - INFO - Combined data has 186 rows
+2026-03-30 09:50:24,818 - __main__ - INFO - ==================================================
+2026-03-30 09:50:24,821 - __main__ - INFO - STEP 3: Generating output files
+2026-03-30 09:50:24,821 - __main__ - INFO - ==================================================
+2026-03-30 09:50:24,822 - file_generator - INFO - Generating output files
+2026-03-30 09:50:24,824 - file_generator - INFO - Creating DATA file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\output\20260330_094811\BOACTAR_DATA_20260330_094811.xlsx
+2026-03-30 09:50:32,260 - file_generator - INFO - DATA file created with 186 data rows and 1157 columns
+2026-03-30 09:50:32,267 - file_generator - INFO - Creating META file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\output\20260330_094811\BOACTAR_META_20260330_094811.xlsx
+2026-03-30 09:50:32,751 - file_generator - INFO - META file created with 1157 entries
+2026-03-30 09:50:32,751 - file_generator - INFO - Creating ZIP file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\output\20260330_094811\BOACTAR_20260330_094811.zip
+2026-03-30 09:50:33,015 - file_generator - INFO - ZIP file created
+2026-03-30 09:50:33,048 - file_generator - INFO - Copied files to latest folder
+2026-03-30 09:50:33,048 - file_generator - INFO - Saving master data to: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\Master_file\BOACTAR_DATA_20251229 (27).xlsx
+2026-03-30 09:50:33,048 - file_generator - INFO - Creating DATA file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\Master_file\BOACTAR_DATA_20251229 (27).xlsx
+2026-03-30 09:50:40,046 - file_generator - INFO - DATA file created with 186 data rows and 1157 columns
+2026-03-30 09:50:40,056 - file_generator - INFO - Master data saved with 186 rows
+2026-03-30 09:50:40,056 - file_generator - INFO - All output files generated successfully
+2026-03-30 09:50:40,059 - __main__ - INFO - ==================================================
+2026-03-30 09:50:40,060 - __main__ - INFO - STEP 4: Execution complete
+2026-03-30 09:50:40,061 - __main__ - INFO - ==================================================
+2026-03-30 09:50:40,066 - __main__ - INFO - Pipeline completed successfully

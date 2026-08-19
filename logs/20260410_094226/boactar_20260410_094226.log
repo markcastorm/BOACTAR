@@ -1,0 +1,7 @@
+2026-04-10 09:42:26,504 - logger_setup - INFO - Logging initialized - Level: INFO
+2026-04-10 09:42:26,505 - logger_setup - INFO - Log file: C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\logs\20260410_094226\boactar_20260410_094226.log
+2026-04-10 09:42:26,717 - __main__ - INFO - ==================================================
+2026-04-10 09:42:26,862 - __main__ - INFO - STEP 1: Loading input data
+2026-04-10 09:42:26,915 - __main__ - INFO - ==================================================
+2026-04-10 09:42:27,015 - data_loader - INFO - Found 1 input file(s) in C:\Users\Mark Castro\Documents\bOACTAR\BOACTAR\input
+2026-04-10 09:42:27,031 - data_loader - INFO - Loading file: 12957068.xlsm
